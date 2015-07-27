@@ -15,7 +15,7 @@ class Projects {
     Email reportSendTo
     Email reportCC
 
-    static hasMany = [members: Members]
+    static hasMany = [members: Members, reports:DailyReport]
 
     static constraints = {
         projectName(nullable: false, unique: true)

@@ -2,5 +2,9 @@ package reporter
 
 class ProjectController {
 
-    def index() { }
+    def createProject() {}
+
+    def addMemberToProject() {
+
+    }
 }

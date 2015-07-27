@@ -1,6 +1,9 @@
 package reporter
 
 class MemberController {
+    def memberService
 
-    def index() { }
+    def createMember() {
+        memberService.createAccount()
+    }
 }
