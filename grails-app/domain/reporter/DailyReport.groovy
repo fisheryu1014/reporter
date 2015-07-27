@@ -8,6 +8,10 @@ class DailyReport {
     LocalDate date
 
 
+    static belongsTo = [project: Projects, author: Members ]
+
+
     static constraints = {
+        details(nullable: false)
     }
 }
